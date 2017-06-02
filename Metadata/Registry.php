@@ -49,7 +49,6 @@ class Registry implements RegistryInterface
                 return $metadata;
             }
         }
-
         throw new \InvalidArgumentException(sprintf('Resource with model class "%s" does not exist.', $className));
     }
 
