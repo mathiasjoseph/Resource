@@ -42,11 +42,6 @@ interface MetadataInterface
     /**
      * @return string
      */
-    public function getDriver();
-
-    /**
-     * @return string
-     */
     public function getTemplatesNamespace();
 
     /**

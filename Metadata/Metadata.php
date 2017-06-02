@@ -29,11 +29,6 @@ class Metadata implements MetadataInterface
     /**
      * @var string
      */
-    private $driver;
-
-    /**
-     * @var string
-     */
     private $templatesNamespace;
 
     /**
@@ -51,7 +46,6 @@ class Metadata implements MetadataInterface
         $this->name = $name;
         $this->applicationName = $applicationName;
 
-        $this->driver = $parameters['driver'];
         $this->templatesNamespace = array_key_exists('templates', $parameters) ? $parameters['templates'] : null;
 
         $this->parameters = $parameters;
@@ -110,13 +104,6 @@ class Metadata implements MetadataInterface
         return Inflector::pluralize($this->name);
     }
 
-    /**
-     * {@inheritdoc}
-     */
-    public function getDriver()
-    {
-        return $this->driver;
-    }
 
     /**
      * {@inheritdoc}
