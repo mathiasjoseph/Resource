@@ -11,8 +11,8 @@
 
 namespace Miky\Component\Resource\Repository;
 
-use Miky\Component\Resource\Model\ResourceInterface;
 use Doctrine\Common\Persistence\ObjectRepository;
+use Miky\Component\Resource\Model\ResourceInterface;
 
 /**
  * @author Saša Stamenković <umpirsky@gmail.com>

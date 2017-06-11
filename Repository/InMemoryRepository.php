@@ -11,11 +11,11 @@
 
 namespace Miky\Component\Resource\Repository;
 
+use ArrayObject;
 use Miky\Component\Resource\Exception\UnexpectedTypeException;
 use Miky\Component\Resource\Exception\UnsupportedMethodException;
 use Miky\Component\Resource\Model\ResourceInterface;
 use Miky\Component\Resource\Repository\Exception\ExistingResourceException;
-use ArrayObject;
 use Pagerfanta\Adapter\ArrayAdapter;
 use Pagerfanta\Pagerfanta;
 use Symfony\Component\PropertyAccess\PropertyAccess;
